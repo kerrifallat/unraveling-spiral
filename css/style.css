@@ -2,51 +2,74 @@ body, /*you dont need those carrots that are used in html*/
 html {
   background-color:rgb(187, 191, 183) ;
   font-family: 'Felt Tip Woman', 'Felt Tip Woman';
-  position: center;
-  font-size: 40pt;
+  font-size: 50pt;
   color:black;
+  text-align:left;
   width: 100vw;
   height: 100vh;
   margin:0;
-  padding: 0;
+  padding:center;
 }
 
 .container {
+  display:flex;
+  margin:auto;
   background-image: url("../img/spiral-drawing-2.gif");
+  opacity: 50%;
   width: 100vw;
   height: 100vh;
-  position: fixed;
+  position: fixed; 
+  background-position:auto; 
+
 }
 
 p { 
+  padding:1in;
+  position:relative;
+  text-indent: 5%;
+  border-spacing: 0ch;
   font-size: 47px;
   font-family: 'Felt Tip Woman';
-  margin: 2in;
+  margin:0.05px;
+  justify-content: space-between;
 }
 
 .panel {
+  text-align: justify;
   width: 47.5%;
-  padding: 20px;
-  background-color: rgb(220, 216, 216);
-  opacity: 0.10;
   height: 100vh;
-  margin: 2in;
+  padding: 40px;
+  background-color: rgb(220, 216, 216);
+  opacity:0.09;
+  margin:0.01rem;
+  
 }
 
 .left {
+  opacity: 100%;
   background:red(218,196,196);
-  margin:3in;
-  font: size 40pt;;
+  font-size: 50pt;
+  text-overflow: clip;
+  
 }
 
 .right {
-  margin: 3in;
+  padding:40px;
+  margin-left: 1in;
+  text-align:start;
+  justify-content:flex-end;
+  background: peachpuff;
+  text-overflow: clip;
+  opacity: 100%;
   font-size: 50pt; 
+  font-variant-position:center;
   float: right;
-  background: peachpuff
-  /* padding-left: 20px; */
   
-}
+  
+  /* padding-left: 20px; */
+  /*padding-rught: 20px; */
+  
+
 
 
 /* Mobile
@@ -56,4 +79,3 @@ p {
 
   
 } 
-
