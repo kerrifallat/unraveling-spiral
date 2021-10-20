@@ -1,27 +1,52 @@
-body,you dont need those carrots that are used in html
+body, /*you dont need those carrots that are used in html*/
 html {
-    background-color: plum;
-    font-family: 'Courier New',sans-serif;
-    color: purple;
-    margin-top:100px;
-    margin-bottom:100px;
+  background-color:rgb(187, 191, 183) ;
+  font-family: 'Felt Tip Woman', 'Felt Tip Woman';
+  position: center;
+  font-size: 40pt;
+  color:black;
+  width: 100vw;
+  height: 100vh;
+  margin:0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("../img/spiral-drawing-2.gif");
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
 }
 
 p { 
-  color: blueviolet;
-  font-size: 24px;
-  font-family: Arial;
-
-
+  font-size: 47px;
+  font-family: 'Felt Tip Woman';
+  margin: 2in;
 }
 
-.highlight {
-    /* background-color: red; */
-    color: green;
-    
-
+.panel {
+  width: 47.5%;
+  padding: 20px;
+  background-color: rgb(220, 216, 216);
+  opacity: 0.10;
+  height: 100vh;
+  margin: 2in;
 }
 
+.left {
+  background:red(218,196,196);
+  margin:3in;
+  font: size 40pt;;
+}
+
+.right {
+  margin: 3in;
+  font-size: 50pt; 
+  float: right;
+  background: peachpuff
+  /* padding-left: 20px; */
+  
+}
 
 
 /* Mobile
