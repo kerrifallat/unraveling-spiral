@@ -1,4 +1,4 @@
-body, /*you dont need those carrots that are used in html*/
+body,
 html {
   background-color:rgb(187, 191, 183) ;
   font-family: 'Felt Tip Woman', 'Felt Tip Woman';
@@ -64,10 +64,18 @@ p {
   font-size: 50pt; 
   font-variant-position:center;
   float: right;
-  
+
   
   /* padding-left: 20px; */
-  /*padding-rught: 20px; */
+  /* padding-rught: 20px; */
+
+}
+
+.authorship {
+  font-size: 15pt;
+
+}
+
   
 
 
